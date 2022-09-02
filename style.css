@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+:root {
+    --cor01-preta: #261717;
+    --cor02-azulclaro: #ff0000;
+    --cor03: #5FCDD9;
+    --cor04: #02312c5b;
+    --cor05: #037963;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor02-azulclaro);
+}
+
+header {
+    background-color: var(--cor01-preta);
+    color: var(--cor02-azulclaro);
+}
+
+header h1 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+header ul  {
+    color: var(--cor02-azulclaro);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0.5rem;
+    text-decoration: none;   
+}
+
+header a:hover {
+    color: var(--cor02-azulclaro);
+    text-align: center;
+    list-style: none;
+    text-decoration: none;   
+    background-color: var(--cor02-azulclaro);
+    color: var(--cor01-preta);
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+
+a {
+    list-style: none;
+    color: var(--cor02-azulclaro);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0.5rem;
+    text-decoration: none; 
+}
+
+main p {
+    color: var(--cor01-preta);
+    font-size: 1.5rem;
+    width: auto;
+    padding: 0.5rem;
+    text-indent: 5%;
+}
+
+main img {
+    width: 100%;
+    background-size: cover;
+}
+
+main h1 {
+    font-size: 1.9rem;
+    color: var(--cor01-preta);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+main h2 {
+    text-align: center;
+    justify-content: center;
+}
+
+.container img {
+    border-radius: 5%;
+    border-color: black;
+}
+
+main .albuns {
+    display: flex;
+    justify-content: center;
+    color: brown;
+    background-color: var(--cor01-preta);
+    font-size: 1.1rem;
+    height: 74px;
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 0px;
+    margin-bottom: 1rem;
+}
+
+article .nomeartista {
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+footer {
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--cor01-preta);
+    color: var(--cor02-azulclaro);
+    height: 15px;
+    font-weight: lighter;
+}
+
+

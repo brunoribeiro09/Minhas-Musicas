@@ -22,6 +22,24 @@ header {
     color: var(--cor02-azulclaro);
 }
 
+#menu {
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#menu:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    display: none;
+}
+
 header h1 {
     text-align: center;
     padding: 1rem;

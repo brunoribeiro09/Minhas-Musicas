@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhas Músicas</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <style>
         main ul {
             list-style: none;
@@ -65,9 +67,11 @@
 </head>
 <body>
      <header>
-        <section class>
+        <section>
                 <h1 class="h1">Minhas músicas</h1>
-                <nav class="nav">
+                <span class="material-icons" id="menu" onclick="clickMenu()">menu</span>
+
+                <nav class="nav" id="itens">
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="#">Artistas</a></li>
@@ -75,6 +79,7 @@
                         <li><a href="#">Musicas</a></li>
                     </ul>
                 </nav>
+
         </section>
      </header>
      <main>
@@ -188,9 +193,16 @@
         <h2><a href="#">Álbuns do Artista</a></h2>
        </section>
      </main>
-
+     <script>
+        function clickMenu() {
+            if(itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }   else {
+                itens.style.display = 'block'
+            }
+        }
+     </script>
 </body>
-
 <footer>
     <p>Site criado por Bruno Ribeiro para o Mundo</p>
 </footer>
